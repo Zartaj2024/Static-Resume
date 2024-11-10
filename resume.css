@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+}
+.R-container{
+    display: flex;
+    background-color: ghostwhite;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.L-side{
+
+    background-color: #2D2D2D;
+    color: white;
+    padding: 20px;
+    width: 175px;
+    text-align: center;
+    justify-content: center;
+    border-right: 5px solid red;
+}
+h1{
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: greenyellow;
+}
+.R-side{
+    flex: 1;
+    padding: 20px;
+    width: 65%;
+}
+
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li{
+    margin :5px 0;
+}
+
+button{
+    font-family: Arial,sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    margin-top: 10px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
